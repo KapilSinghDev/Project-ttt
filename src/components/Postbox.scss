@@ -1,7 +1,7 @@
 .post-box{
     display: flex;
     flex-direction: column;
-    width: 44vh;
+    width: 46.5vh;
     height: 25vh;
     margin-left:1%;
     
@@ -46,7 +46,7 @@
     .border-line {
         border: none; // Remove the default border
         border-bottom: 1px solid grey; // Set the bottom border with the desired color
-        width: full; // Optional: Set the width to 100% if needed
+        width: 100%; // Optional: Set the width to 100% if needed
         margin: 10px 0; // Optional: Add some margin for spacing
       }
       
