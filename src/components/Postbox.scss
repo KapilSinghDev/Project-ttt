@@ -1,0 +1,42 @@
+.post-box{
+    display: flex;
+    flex-direction: column;
+    width: 44vh;
+    height: 25vh;
+    margin-left:1%;
+    // border: 1px solid rgb(170, 170, 169);
+    .post-head{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .heading{
+            margin-left: 4%;
+        }
+        .like-post{
+            height: 15px;
+            width: 15px;
+            margin-top: 5%;
+            margin-right: 5%;
+            color: rgb(255, 217, 0);
+        }
+    }
+    .post-cont{
+        .content{
+            text-align: left;
+            margin-left: 4%;
+        }
+    }
+    .post-det{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .left-det{
+            margin-left: 4%;
+            font-weight: 500;
+        }
+        .right-det{
+            color: grey;
+            margin-right: 5%;
+        }
+    }
+}

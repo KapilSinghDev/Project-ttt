@@ -1,23 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/Navbar';
+import Postbox from './components/Postbox';
+import Profiles from './components/Profiles';
+import posts from './components/posts.js'; 
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar/>
+      <Profiles/>
+      {posts.map((post, index) => (
+        <Postbox
+          key={index}
+          title={post.title}
+          content={post.content}
+          type={post.type}
+          Date={post.Date}
+          Time={post.Time}
+          Views={post.Views}
+        />
+      ))}
     </div>
   );
 }
