@@ -4,7 +4,7 @@
     width: 44vh;
     height: 25vh;
     margin-left:1%;
-    // border: 1px solid rgb(170, 170, 169);
+    
     .post-head{
         display: flex;
         flex-direction: row;
@@ -30,13 +30,24 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        font-size: 12px;
         .left-det{
-            margin-left: 4%;
+            margin-left: 0%;
+            width: 20vh;
             font-weight: 500;
+            display: flex;
+            flex-direction: row;
         }
         .right-det{
             color: grey;
             margin-right: 5%;
         }
     }
+    .border-line {
+        border: none; // Remove the default border
+        border-bottom: 1px solid grey; // Set the bottom border with the desired color
+        width: full; // Optional: Set the width to 100% if needed
+        margin: 10px 0; // Optional: Add some margin for spacing
+      }
+      
 }
