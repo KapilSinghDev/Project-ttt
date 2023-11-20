@@ -17,7 +17,7 @@ function App() {
           type={post.type}
           Date={post.Date}
           Time={post.Time}
-          Views={post.Views}
+          Views={post.views}
         />
       ))}
     </div>
