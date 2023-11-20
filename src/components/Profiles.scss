@@ -1,6 +1,12 @@
 .profile{
     display:flex;
     flex-direction:column;
+    @media (min-width:431px) {
+        display:flex;
+        flex-direction:column;
+        // background-color: red;
+        margin-top: 0.5%;
+    }
     .top{
         height: auto;
         width: auto;
@@ -8,12 +14,25 @@
         .cov-pic{
             height: 20vh;
             width: 50vh;
+            @media (min-width:431px) {
+                height: 40vh;
+                width: 100%;
+                margin-top: -1%;
+            }
+            @media (max-width:376px) {
+                height: 25vh;
+                width: 70vh;
+            }
         }
     }
     .mid{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        @media (min-width:431px) {
+            height: 40vh;
+            width: 100%;
+        }
         .prof-pic{
             height: auto;
             width: auto;
@@ -25,11 +44,30 @@
                 position: relative;
                 top: -20%;
                 left: 15%;
+                @media (min-width:431px) {
+                    // background-color: red;
+                    height: 23vh;
+                    width: 25vh;
+                    border-radius: 70px 70px 70px 70px;
+                    position: relative;
+                    top: -40%;
+                    left: 50%;
+                }
             }
         }
         .mid-right{
             // border: 1px solid red;
             width: 30vh;
+            @media (min-width:431px) {
+                width: 50vh;
+                height: 20vh;
+                margin-right: 40%;
+                // border: 1px solid red;
+            }
+            @media (max-width:376px) {
+                width: 40vh;
+
+            }
             .user-name{
                 font-weight: bold;
                 margin-left: 18%;
@@ -63,12 +101,24 @@
                 color: grey;
                 font-size: 400;
                 text-align: center;
+                @media (max-width:376px) {
+                    width: 20vh;
+                }
+                @media (min-width:431px) {
+                    // border: 1px solid red;
+                    margin-left:15% ;
+                }
                 .tabs{
                     // flex-direction: column;
                     height:auto;
                     width: 5vh;
                     border: 1px solid grey;
                     border-radius: 5px 5px 5px 5px;
+                    @media (min-width:431px) {
+                        width: 10vh;
+                        margin-left: 25%;
+                        
+                    }
                 }
             }
             .fols{
@@ -81,6 +131,14 @@
                 margin-top: -4%;
                 // border: 1px solid red;
                 margin-left: 17%;
+                @media (min-width:431px) {
+                    margin-left: 15%;
+                    width: 18vh;
+                    // border: 1px solid red;
+                }
+                @media (max-width:376px) {
+                    width: 15vh;
+                }
             }
         }
     }
@@ -89,16 +147,29 @@
         height: auto;
         width: auto;
         // border: 1px solid red;
+        
         .btm-desc{
             // text-align: left;
             margin-left: -20%;
             font-size: 15px;
+            @media (min-width:431px) {
+                margin-left: 0%;
+                font-size: 15px;
+                margin-top: -1%;
+                // border: 1px solid red;
+            }
             .btm-link{
                 color: rgb(0, 0, 231);
                 font-size: 10px;
                 margin-left: -20%;
                 // margin-top: -50%;
                 // border: 1px solid red;
+                @media (min-width:431px) {
+                    margin-left: 0%;
+                    font-size: 15px;
+                    margin-top: -1%;
+                    // border: 1px solid red;
+                }    
             }
         }
         .specs{
@@ -110,6 +181,13 @@
             // border: 1px solid blue;
             margin-top: -5%;
             margin-left: 10%;
+            @media (min-width:431px) {
+                margin-top: -8%;
+                // border: 1px solid red;
+                height: fit-content;
+                width: 50vh;
+                margin-left: 2%;
+            }
             .emojis{
                 height: 15px;
                 padding-right: 5px;
@@ -121,6 +199,18 @@
     .post-box{
         height: 4.5vh;
         width: 12vh;
+        
+        @media (max-width:360vh) {
+            width: 14vh;
+            height: 4.5vh;
+            margin-top: 0%;
+        }
+        @media (min-width:431px) {
+            // border: 1px solid red;
+            height: auto ;
+            width: 20vh;
+            // text-align: top;
+        }
         text-align: center;
         border-top: 1px solid rgb(170, 170, 169);
         border-right:1px solid rgb(170, 170, 169);
@@ -139,5 +229,12 @@
         width: 40vh;
         left: 100%;
         top: -50%;
+        @media (min-width:430px) {
+            width: 200vh;
+        }
+        @media (max-width:376px) {
+            top:-100%;
+            width: 45vh;
+        }
     }
 }

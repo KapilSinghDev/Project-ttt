@@ -3,7 +3,6 @@ import user from './profile.json'
 import cover from './coverpicc.png'
 import './Profiles.scss'
 import profilepic from './profilepic.png'
-import approval from './approval.png'
 import verify from './verify.png'
 import { FaGem } from 'react-icons/fa';
 import { FaStar } from 'react-icons/fa';

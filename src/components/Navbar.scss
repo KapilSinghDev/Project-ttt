@@ -5,16 +5,22 @@
     width: full;
     height: 10vh;
     background-color: black;
+    @media (min-width:431px) {
+        height: 18vh;        
+    }
     .nav-left{
         display: flex;
         flex-direction: row;
         width: 50%;
+        
         .nav-logo{
             width: 80%;
             height: 80%;
             margin-left: 15%;
             margin-top: 5%;
-            // border: 1px solid red;
+            @media (min-width:431px) {
+                margin-top: 2%;
+            }            
         }
         .nav-st{
             font-size: 18px;
@@ -22,6 +28,9 @@
             position: relative;
             right: 50%;
             top: 15%;
+            @media (min-width:431px) {
+                left: -45%;
+            }
         }
     }
     .nav-right{
@@ -34,5 +43,23 @@
         height: 6vh;
         margin-top: 4%;
         margin-right: 4%;
+        @media (min-width:431px) {
+            width:20vh;
+            height: 7vh;
+            margin-top: 3%;
+            border-radius: 5px 5px 5px 5px;
+            // text-align: center;
+        }
+        .right-text{
+            margin-top: 0%;
+            font-weight: bold;
+            @media (max-width:431px) {
+                margin-top: 5%;
+                font-size: larger;
+                // font-weight: bold;
+                // color:red;
+            }
+        }
+
     }
 }
