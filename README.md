@@ -30,8 +30,6 @@
 <h2>The second was is the User Profile component it contains the user profile pic , cover photo and other credentials</h2>
 <img src="https://github.com/KapilSinghDev/Project-ttt/assets/99131275/f9920d3e-5ca9-4723-a70f-ab09553e32d4"/>
 <img src="https://github.com/KapilSinghDev/Project-ttt/assets/99131275/003f2929-19a0-47a4-a9e2-20bbc17667eb"/>
-![image](https://github.com/KapilSinghDev/Project-ttt/assets/99131275/f9920d3e-5ca9-4723-a70f-ab09553e32d4)
-![image](https://github.com/KapilSinghDev/Project-ttt/assets/99131275/003f2929-19a0-47a4-a9e2-20bbc17667eb)
 <h2>The third is the post component that has been redered three times in App.js component</h2>
 <img src="https://github.com/KapilSinghDev/Project-ttt/assets/99131275/3490eabc-c796-490b-bb29-5238bad767dc"/>
 <img src="https://github.com/KapilSinghDev/Project-ttt/assets/99131275/08204e48-dd72-4488-b3b2-02e8ffa252a8"/>
