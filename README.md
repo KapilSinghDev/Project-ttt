@@ -1,5 +1,5 @@
 # Terribly Tiny Tales
-<h1>The project is hosted on the link </h1>
+<h1>The project is hosted on the link https://kapilassignment.vercel.app/ </h1>
 <h1>Below are the screen shots of different mobile views</h1>
 <h2>Samsung Galaxy A51</h2>
 ![image](https://github.com/KapilSinghDev/Project-ttt/assets/99131275/593040b3-3ef5-4905-9286-4864faa27344)
